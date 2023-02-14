@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery</title>
+    <style>
+            .main{
+                    display: flex;
+                    height: 100vh;
+                    width: 100vw;
+                    /* border-color: rgb(255, 255, 255); */
+                  
+                    margin:auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    flex-wrap: wrap;
+                                }
+            .header {
+              
+                    height: 7vh;
+                    width: 100vw;
+                    /* border-color: blue; */
+                    
+                    display: flex;
+                    flex-direction: row;
+                    /* justify-content: flex-end; */
+                    justify-self: center;          
+                    background-size: 100% 100%;
+                    object-fit: cover;
+                    /* justify-content:center ; */
+           }
+                          
+           
+           
+           * {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+   
+                    .left{
+                        height: 100%;
+                       
+                        width: 60%;
+                        /* border-color: rgb(21, 91, 157);  */
+                        background-color: rgb(21, 91, 157);
+                        display:flex ; 
+                        flex-direction: column;
+                        justify-content: center;
+                        /* border-color: rgb(11, 240, 214); */
+                    
+                        
+                    }
+                    .right{
+                            height: 100%;
+                            /* border-style: dashed;  */
+                            width: 40%;
+                            /* border-color: rgb(11, 240, 214);  */
+                            background-color: rgb(21, 91, 157);
+                            display: flex;
+                            flex-direction: row;
+                            justify-content:center;
+                            justify-content: space-around;
+                            /* align-content: end; */
+                            /* border-color: rgb(21, 91, 157);  */
+                            /* color: black; */
+                        }
+                        a{
+                            color:burlywood;
+                        }
+                      
+                        .middle{
+                        height:93vh;
+                        width: 100%;
+                        background-color: rgb(8, 242, 203);
+                        display: flex;
+                        flex-direction: row;
+                      justify-content: space-between;
+                     
+                       flex-wrap:wrap ;
+                       /* border-color: rgb(214, 22, 22); */
+                       /* border-style: dashed; */
+                       
+                            
+                            }
+
+                      .img-box{
+                                height: 50%;
+                                width: 33.15%;
+                                /* background-color: rgb(228, 218, 27); */
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-end;
+                              
+                              
+                                }
+                     .image{
+                                width: 100%;
+                                height: 75%;
+                                /* border-color: rgb(205, 17, 17); */
+                                /* border-style: dashed; */
+                                background-image: url("https://discoverylandco.com/imager/images/692/Summit7_d169f13de117664acdaa1543841b7c16.jpg");
+                            }
+
+                                .img-box-lable{
+                                height: 25%;
+                                width: 100%;
+                                /* background-color: rgb(174, 0, 255); */
+                                /* display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start; */
+                                /* border-color: rgb(228, 17, 17); */
+                                /* border-style: dashed; */
+                                }
+
+                    .footer-section {
+                        height: 41vh;
+                        width:100vw;
+                        background-color: rgba(87, 50, 234, 0.721);
+                        display: flex;
+                        /* border-color: black; */
+                        /* border-style: dashed; */
+                        padding-top: 100px;
+                    }
+                
+                    .footer-one,
+                    .footer-two {
+                        display: flex;
+                        height: 50%;
+                        width: 40%;
+                    
+                        margin: auto;
+                    }
+                
+                .footer-two {
+                    display: flex;
+                    /* justify-content:space-between; */
+                    justify-content: space-around;
+                }
+                
+                .footer-two-one,
+                .footer-two-two,
+                .footer-two-three {
+                    display: flex;
+                    flex-direction: column;
+                    color: hsl(0, 0%, 100%);
+                } 
+
+                @media screen and (max-width:500px) {
+                        .middle{
+                        flex-direction: column;
+                        height: 258vh;
+                        }
+                    
+                        .image-box {
+                        width: 100%;
+                        height: 16%;
+                        }
+                    }
+  
+   </style>
+</head>
+<body>
+    <section class="main">
+            <nav class="header">
+                <div class="left"><h1 style="color: burlywood;">Discovery</h1></div>
+                <div class="right">
+                       <a href="file:///C:/Users/ALL%20IS%20WELL/Documents/VS%20CODE%20CFP/HTML/New.html" target="_blank">Gallery</a>
+                    <a href="">DLC About</a>
+                 <a href="">Experience</a>
+                    <a href="">More</a>
+                </div>
+            </nav>
+
+            <section class="middle">
+               <nav class="img-box">
+                    <div class="image">
+                      <img src="" alt="">    
+                    </div>
+                    <div class="img-box-lable"> 
+                       <h1>Las vegas</h1>  
+                       <h4>America</h4>
+                    </nav>
+                    <nav class="img-box">
+                        <div class="image">
+                          <img src="" alt="">    
+                        </div>
+                        <div class="img-box-lable">
+                             <h1> Dubai</h1>
+                           <h4>Arab Emirates</h4>
+                        </nav>
+                        <nav class="img-box">
+                            <div class="image">
+                              <img src="" alt="">    
+                            </div>
+                            <div class="img-box-lable"> <h1> Dallas</h1>
+                                <h4>Arab Emirates</h4>
+                              
+                            </nav>
+                            
+                            <nav class="img-box">
+                                <div class="image">
+                                  <img src="" alt="">    
+                                </div>
+                                <div class="img-box-lable"> <h1> AbuDhabi</h1>
+                                    <h4>Arab Emirates</h4>
+                                  
+                                </nav>
+                                
+                                <nav class="img-box">
+                                    <div class="image">
+                                      <img src="" alt="">    
+                                    </div>
+                                    <div class="img-box-lable"> <h1> Newyork</h1>
+                                        <h4>Arab Emirates</h4>
+                                      
+                                    </nav>
+                                    <nav class="img-box">
+                                        <div class="image">
+                                          <img src="" alt="">    
+                                        </div>
+                                        <div class="img-box-lable"> <h1> Saipross
+
+                                        </h1>
+                                            <h4>Arab Emirates</h4>
+                                          
+                                        </nav>
+                                    
+            </section>> 
+                    
+                     
+   </section>
+   <section class="footer-section">
+        <div class="footer-one"><h1 style="color: hsl(0, 100%, 99%);">Discovery</h1></div>
+        <div class="footer-two">
+          <div class="footer-two-one">
+              <h4 >About</h4>
+              <h4>our worlds</h4>
+              <h4>more</h4>
+              
+            </div>
+            <div class="footer-two-two">
+              <h4>Accenture</h4>
+              <h4>Perhapes</h4>
+              <h4>Generations</h4>
+            
+            </div>
+            <div class="footer-two-three">
+              <h4>Raciprocation</h4>
+              <h4>design</h4>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

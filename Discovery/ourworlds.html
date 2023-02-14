@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .main{
+                    display: flex;
+                    height: 100vh;
+                    width: 100vw;
+                    border-color: rgb(255, 255, 255);
+                    border-style: dashed;
+                    margin:auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    flex-wrap: wrap;
+                                }
+            .header {
+              
+                    height: 7vh;
+                    width: 100vw;
+                    border-color: blue;
+                    border-style: dashed;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    justify-self: center;          
+                    background-size: 100% 100%;
+    object-fit: cover;
+           }
+           * {
+    margin: 0;
+    padding: 0;
+  }
+
+   
+            .left{
+                height: 100%;
+                border-style:
+                 dashed; 
+                 width: 60%;
+                 border-color: rgb(186, 226, 43); 
+                 display:flex ; 
+                 flex-direction: column;
+                 justify-content: center;
+                 border-color: rgb(11, 240, 214);
+             
+                
+                    }
+                    .right{
+                            height: 100%;
+                            border-style: dashed; 
+                            width: 40%;
+                            border-color: rgb(11, 240, 214); 
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            justify-content: space-around;
+                            border-color: rgb(11, 240, 214); 
+                        }
+
+                        .mid-section {
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    width: 100%;
+    height: 70%;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    background-color: black;
+    color: white;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-box {
+    width: 33.2%;
+    height: 50%;
+  }
+
+                    .footer-section {
+                        height: 41vh;
+                        width:100vw;
+                        background-color: rgb(87, 50, 234);
+                        display: flex;
+                        border-color: black;
+                                    border-style: dashed;
+                        padding-top: 100px;
+                    }
+                
+                    .footer-one,
+                    .footer-two {
+                        display: flex;
+                        height: 50%;
+                        width: 40%;
+                    
+                        margin: auto;
+                    }
+                
+                .footer-two {
+                    display: flex;
+                    /* justify-content:space-between; */
+                    justify-content: space-around;
+                }
+                
+                .footer-two-one,
+                .footer-two-two,
+                .footer-two-three {
+                    display: flex;
+                    flex-direction: column;
+                    color: #ffffff;
+                } 
+                @media screen and (max-width:500px) {
+    .middle {
+      flex-direction: column;
+      height: 258vh;
+    }
+  
+    .middle {
+      width: 100%;
+      height: 16%;
+    }
+  }
+  
+   </style>
+</head>
+<body>
+  <section class="mid-section">
+    <div class="image-box">
+      <div class="image">
+        <img src=" https://discoverylandco.com/imager/images/7390/Stocksy_txp3615512ad2e200_OriginalDelivery_1580323-1_210301_201432_d169f13de117664acdaa1543841b7c16.jpg" />
+      </div>
+      <div class="title">
+        <h4>Classify</h4>
+      </div>
+    </div>
+                     
+            </section>> 
+                    
+                     
+   </section>
+   <section class="footer-section">
+        <div class="footer-one"><h1 style="color: hsl(0, 100%, 99%);">Discovery</h1></div>
+        <div class="footer-two">
+          <div class="footer-two-one">
+              <h4 >About</h4>
+              <h4>our worlds</h4>
+              <h4>more</h4>
+              
+            </div>
+            <div class="footer-two-two">
+              <h4>Accenture</h4>
+              <h4>Perhapes</h4>
+              <h4>Generations</h4>
+            
+            </div>
+            <div class="footer-two-three">
+              <h4>Raciprocation</h4>
+              <h4>design</h4>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

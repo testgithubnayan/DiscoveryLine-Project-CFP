@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    height: 60vh;
+    width: 100vw;
+    padding-top: 70px;
+    background-image: url(" https://discoverylandco.com/imager/images/9997/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+  }
+  
+  .main{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: rgb(244, 212, 212);
+  }
+  
+  .main-logo {
+     font-size: large;
+  }
+
+  a{
+    color: black;
+  }
+  
+  .main-list {
+    width: 40%;
+  }
+  .main-lista {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .mid-section {
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    width: 100%;
+    height: 70%;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    background-color: black;
+    color: white;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-box {
+    width: 33.2%;
+    height: 50%;
+  }
+  
+  .footer-section {
+    height: 70vh;
+    width: 99.59vw;
+    background-color: rgb(98, 65, 226);
+    display: flex;
+    padding-top: 100px;
+  }
+  
+  .footer-one,
+  .footer-two {
+    display: flex;
+    height: 50%;
+    width: 40%;
+  
+    margin: auto;
+  }
+  
+  .footer-two {
+    display: flex;
+    /* justify-content:space-between; */
+    justify-content: space-around;
+  }
+  
+  .footer-two-one,
+  .footer-two-two,
+  .footer-two-three {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  h4{
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+
+  h6{
+    color: black;
+  }
+  @media screen and (max-width:500px) {
+    .mid-section {
+      flex-direction: column;
+      height: 258vh;
+    }
+  
+    .image-box {
+      width: 100%;
+      height: 16%;
+    }
+  }
+  
